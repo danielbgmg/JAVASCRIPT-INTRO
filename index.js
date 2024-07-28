@@ -3,7 +3,9 @@
 
 function scheduleLog(number, message) {
     // TODO: Calcule o atraso necessário para garantir a ordem correta das mensagens
-    console.log(message)
+    setTimeout(() => {
+        console.log(message)
+    }, number)
 }
 
 // Não altere essa ordem
